@@ -241,9 +241,13 @@ export interface Localization {
     placeholder?: string;
   };
   pagination?: {
+    firstAriaLabel?: string;
     firstTooltip?: string;
+    previousAriaLabel?: string;
     previousTooltip?: string;
+    nextAriaLabel?: string;
     nextTooltip?: string;
+    lastAriaLabel?: string;
     labelDisplayedRows?: string;
     labelRowsPerPage?: string;
     lastTooltip?: string;
