@@ -78,6 +78,7 @@ export default class MaterialTable extends React.Component {
     this.dataManager.changePageSize(props.options.pageSize);
     isInit && this.dataManager.changePaging(props.options.paging);
     isInit && this.dataManager.changeParentFunc(props.parentChildData);
+    isInit && this.dataManager.changeSearchText(props.options.searchText);
     this.dataManager.changeDetailPanelType(props.options.detailPanelType);
   }
 
